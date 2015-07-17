@@ -10,7 +10,7 @@ public class TestGreet {
 	public void testSayHello() {
 		Greet greet = new Greet();
 		String actual = greet.sayHello();
-		assertEquals("Hello there.", actual);
+		assertEquals("Hello there", actual);
 	}
 
 }
